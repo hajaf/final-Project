@@ -14,7 +14,8 @@ Kaggle Dataset
   - "World Happiness Report-Happiness scored according to economic production, social support, etc"
  Reasoning 
  - Each individual in this group come from different backgrounds and would like to analysis different counties happiness index
-  
+  Description of their source of data
+ - The data includes the happiness index of different countries as well index for different factors that effect that happiness index , which include family, freedom and government. There are 5 tables in all   from the year 2015 to 2019.
 
 Questions We're Looking To Answer
  - Where is the happies palace in the world to live 
