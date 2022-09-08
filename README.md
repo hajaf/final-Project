@@ -12,6 +12,8 @@
 
 Kaggle Dataset 
   - "World Happiness Report-Happiness scored according to economic production, social support, etc"
+ Reasoning 
+ - Each individual in this group come from different backgrounds and would like to analysis different counties happiness index
   
 
 Questions We're Looking To Answer
@@ -27,7 +29,7 @@ comunication would take place on a private slack channel as well as 3 meet ups  
 
 ## Machine Learning Model
 -------
-Tools tobe used :
+Tools to be used :
 •	R studio 
 •	Python
 •	Tableau 
