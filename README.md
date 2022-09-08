@@ -36,6 +36,11 @@ Tools to be used :
 •	Tableau 
 •	Sql
 
+R Studio will be used to create a linear regression that represents the happiness of people across the world.
+Python will be used to clean data and to create data visualizations.
+Tableau will be used to create data visualizations and to create a happiness dashboard.
+SQL will be used to look up information and to join tables.
+
 
 ## Database
 -------
@@ -51,7 +56,7 @@ from kaggle
   -Cara
 
 
-  -Charissa
+  -Clarissa
 
     
   -Nathan 
