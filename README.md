@@ -22,15 +22,22 @@ Questions We're Looking To Answer
 
 ## GitHub
 -------
-
+Each individual created a branch to work on the assignment simultaneously
+comunication would take place on a private slack channel as well as 3 meet ups  a week
 
 ## Machine Learning Model
 -------
+Tools tobe used :
+•	R studio 
+•	Python
+•	Tableau 
+•	Sql
 
 
 ## Database
 -------
-
+"World Happiness Report"
+from kaggle
 
 
 ### Meet the Team
