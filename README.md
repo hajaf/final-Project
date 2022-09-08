@@ -15,10 +15,10 @@ Kaggle Dataset
   
 
 Questions We're Looking To Answer
- - "1"
- - "2"
- - "3"
-
+ - Where is the happies palace in the world to live 
+ - which factors affect happiness the most 
+ - what does the ranking look like on a map
+ - what are the top 10 and botom 10 happiess places on earth
 
 ## GitHub
 -------
