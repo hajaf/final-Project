@@ -41,6 +41,8 @@ Python will be used to clean data and to create data visualizations.
 Tableau will be used to create data visualizations and to create a happiness dashboard.
 SQL will be used to look up information and to join tables.
 
+We will be using a simple statistical analysis to see how happiness is measured throughout the world.
+
 
 ## Database
 -------
