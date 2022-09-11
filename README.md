@@ -50,13 +50,13 @@ from kaggle
 
 ### Meet the Team
 
-  -Haja
+  -Haja (Square)
 
     
-  -Cara
+  -Cara (Circle)
 
 
-  -Clarissa
+  -Clarissa (Triange)
 
     
-  -Nathan 
+  -Nathan (X)
