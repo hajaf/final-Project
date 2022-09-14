@@ -49,6 +49,10 @@ We will be using a simple statistical analysis to see how happiness is measured 
 "World Happiness Report"
 from kaggle
 
+## Heatmap Analysis
+Using RStudio, the data was grouped by region and then shows the average happiness score for that region and year. First, a year column was added to each dataset. Then the two tables were added together in order to be able tot compare the data from each year. Then the tables were grouped by region and year and then summarized by the average happiness score. Then the heatmap was created where x is the region, y is the year and the color is based on the average happniess score. From the heatmap it can be seen that the regions 'Australian and New Zealand' and 'North America' have higher average happiness scores. The lowest average is the 'Sub-Saharan Africa'. 
+
+<img width="1095" alt="region_heatmap" src="https://user-images.githubusercontent.com/102255823/190279616-6ba3864b-a8d0-406f-ae81-ad3e7091dd5d.png">
 
 ### Meet the Team
 
