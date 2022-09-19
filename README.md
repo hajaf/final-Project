@@ -1,2 +1,2 @@
-Geo Mashup
-==========
+Dashboard Starter Kit
+=====================
