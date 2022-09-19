@@ -54,6 +54,17 @@ Using RStudio, the data was grouped by region and then shows the average happine
 
 <img width="1095" alt="region_heatmap" src="https://user-images.githubusercontent.com/102255823/190279616-6ba3864b-a8d0-406f-ae81-ad3e7091dd5d.png">
 
+## Plotly Scatter Plots
+Through the scatter matrix created we can see that Economy, Family, and Health have the strong linear relation with Happiness Score. Then using Plotly from Pandas a scatter plot is created showing the relation between each variable against the Happiness Score. In compaing the plots from each other, it can be seen that the 10 countries have the highest y value and follow a linear pattern. But moving right, down the list of countries, the data points become more scatterd which shows there is less correlation between the country ranking and Economy, Family, or Health. 
+
+<p float="left">
+  <img width="500" alt="Top50_Fam" src="https://user-images.githubusercontent.com/102255823/191093873-f6a8a08d-3c11-49c8-8157-005a70182ed7.png">
+  <img width="500" alt="Top50_GDP" src="https://user-images.githubusercontent.com/102255823/191093876-6232cc1e-c72d-4ee7-ae51-c0c2f95466d7.png">
+</p>
+<p align="center">
+<img width="500" alt="Top50_Health" src="https://user-images.githubusercontent.com/102255823/191093878-0c5290d1-1ce1-4af1-81c6-13afcdccf216.png">
+</p>
+
 ### Meet the Team
 
   -Haja (Square)
