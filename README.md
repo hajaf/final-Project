@@ -7,27 +7,24 @@
 # ***GW Data Analytics and Visualization***
 ##  Final Project 
 -----
-
+Selected topic
+Reason the topic was selected
+Description of the source of data
+Questions the team hopes to answer with the data
+Description of the data exploration phase of the project
 Description of the analysis phase of the project
+Technologies, languages, tools, and algorithms used throughout the project
 Result of analysis
 Recommendation for future analysis
 Anything the team would have done differently
 ## Presentation
 
 ### Kaggle Dataset 
-   "World Happiness Report-Happiness scored according to economic production, social support, etc"
-    https://www.kaggle.com/datasets/unsdsn/world-happiness
+  - "World Happiness Report-Happiness scored according to economic production, social support, etc"
  ### Reasoning 
- Each individual in this group come from different backgrounds and would like to analysis different counties happiness index
+ - Each individual in this group come from different backgrounds and would like to analysis different counties happiness index
   ### Description of their source of data
- The World Happiness Report is a landmark survey of the state of global happiness. The first report was published in 2012, the second in 2013, the third in 2015, and the fourth in the 2016 Update. 
- The data includes 
- -the happiness index of different countries 
- -index for different factors that effect that happiness index 
-  family
-  freedom 
-  government 
-  There are 5 tables in all from the year 2015 to 2019 , we will be using 2016 and 2015
+ - The data includes the happiness index of different countries as well index for different factors that effect that happiness index , which include family, freedom and government. There are 5 tables in all   from the year 2015 to 2019.
 
 ### Questions We're Looking To Answer
 main Question
@@ -52,7 +49,8 @@ Tools to be used :
 •	R studio 
 •	Python
 •	Tableau 
-• google colab
+•	Sql
+• Google Colab
 
 R Studio will be used to create a linear regression that represents the happiness of people across the world.
 Python will be used to clean data and to create data visualizations.
@@ -84,11 +82,6 @@ With this information we can loosely determine that economy, family, health and 
  
 The graph above depicts world happiness report for 2016 which it not much different from the 2015 report. That is economy, family, health and freedom all effect each other and thus all have a greater effect on the happiness score than trust and generosity.
 
-
-
-
-
-
 <p float="left">
   <img width="500" alt="Top50_Fam" src="https://user-images.githubusercontent.com/102255823/191093873-f6a8a08d-3c11-49c8-8157-005a70182ed7.png">
   <img width="500" alt="Top50_GDP" src="https://user-images.githubusercontent.com/102255823/191093876-6232cc1e-c72d-4ee7-ae51-c0c2f95466d7.png">
@@ -96,6 +89,11 @@ The graph above depicts world happiness report for 2016 which it not much differ
 <p align="center">
 <img width="500" alt="Top50_Health" src="https://user-images.githubusercontent.com/102255823/191093878-0c5290d1-1ce1-4af1-81c6-13afcdccf216.png">
 </p>
+
+## Machine Learning Model
+We created multiple machine learning models in order to see which models had a higher accuracy. We used the cleaned 2015 and 2016 datasets in order to perform our models. The dataframes were preprocessed by removing unnecessary columns such as Ranking and Country. There were certain regions that had more countries that had higher score and therefore we attempted to encode the Region column to include the feature in the model however it did not improve the model's accuracy. The features were Economy,	Family,	Health,	Freedom, Trust, and	Generosity. The target was the Score column. The dataframes were then split into X and y training and testing sets. Because we kept the two years seperate we have 2 training sets and 2 testing sets in total. 
+We began with the linear regression model which can be used to create a linear model that will predict the Scores based on the value of the feature. For 2015 the model had an accuracy of 0.75 and the 2016 linear regression model had an accuracy of 0.73. 
+The next model used was the Random Forest Model. Random Forest models use algorithms to sample the data in order to create simpler decision trees. This is robust against nonlinear data. Since we tried a linear model, we decided to try this in order to see if our data was nonlinear. 
 
 ### Meet the Team
 
