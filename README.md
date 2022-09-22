@@ -15,11 +15,19 @@ Anything the team would have done differently
 ## Presentation
 
 ### Kaggle Dataset 
-  - "World Happiness Report-Happiness scored according to economic production, social support, etc"
+   "World Happiness Report-Happiness scored according to economic production, social support, etc"
+    https://www.kaggle.com/datasets/unsdsn/world-happiness
  ### Reasoning 
- - Each individual in this group come from different backgrounds and would like to analysis different counties happiness index
+ Each individual in this group come from different backgrounds and would like to analysis different counties happiness index
   ### Description of their source of data
- - The data includes the happiness index of different countries as well index for different factors that effect that happiness index , which include family, freedom and government. There are 5 tables in all   from the year 2015 to 2019.
+ The World Happiness Report is a landmark survey of the state of global happiness. The first report was published in 2012, the second in 2013, the third in 2015, and the fourth in the 2016 Update. 
+ The data includes 
+ -the happiness index of different countries 
+ -index for different factors that effect that happiness index 
+  family
+  freedom 
+  government 
+  There are 5 tables in all from the year 2015 to 2019 , we will be using 2016 and 2015
 
 ### Questions We're Looking To Answer
 main Question
@@ -44,7 +52,7 @@ Tools to be used :
 •	R studio 
 •	Python
 •	Tableau 
-•	Sql
+• google colab
 
 R Studio will be used to create a linear regression that represents the happiness of people across the world.
 Python will be used to clean data and to create data visualizations.
