@@ -7,22 +7,37 @@
 # ***GW Data Analytics and Visualization***
 ##  Final Project 
 -----
-
+Selected topic
+Reason the topic was selected
+Description of the source of data
+Questions the team hopes to answer with the data
+Description of the data exploration phase of the project
+Description of the analysis phase of the project
+Technologies, languages, tools, and algorithms used throughout the project
+Result of analysis
+Recommendation for future analysis
+Anything the team would have done differently
 ## Presentation
 
-Kaggle Dataset 
+### Kaggle Dataset 
   - "World Happiness Report-Happiness scored according to economic production, social support, etc"
- Reasoning 
+ ### Reasoning 
  - Each individual in this group come from different backgrounds and would like to analysis different counties happiness index
-  Description of their source of data
+  ### Description of their source of data
  - The data includes the happiness index of different countries as well index for different factors that effect that happiness index , which include family, freedom and government. There are 5 tables in all   from the year 2015 to 2019.
 
-Questions We're Looking To Answer
+### Questions We're Looking To Answer
+main Question
+depending on 4
  - Where is the happies palace in the world to live 
  - which factors affect happiness the most 
  - what does the ranking look like on a map
  - what are the top 10 and botom 10 happiess places on earth
-
+## exploration phase
+Jupyternote book was used to 
+-delete columns 
+-delete rows
+-selecte relivant data
 ## GitHub
 -------
 Each individual created a branch to work on the assignment simultaneously
