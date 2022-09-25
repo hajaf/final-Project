@@ -93,7 +93,20 @@ The graph above depicts world happiness report for 2016 which it not much differ
 ## Machine Learning Model
 We created multiple machine learning models in order to see which models had a higher accuracy. We used the cleaned 2015 and 2016 datasets in order to perform our models. The dataframes were preprocessed by removing unnecessary columns such as Ranking and Country. There were certain regions that had more countries that had higher score and therefore we attempted to encode the Region column to include the feature in the model however it did not improve the model's accuracy. The features were Economy,	Family,	Health,	Freedom, Trust, and	Generosity. The target was the Score column. The dataframes were then split into X and y training and testing sets. Because we kept the two years seperate we have 2 training sets and 2 testing sets in total. 
 We began with the linear regression model which can be used to create a linear model that will predict the Scores based on the value of the feature. For 2015 the model had an accuracy of 0.75 and the 2016 linear regression model had an accuracy of 0.73. 
+
+<img width="500" alt="LinearRegressionModel" src="https://user-images.githubusercontent.com/102255823/192153472-de0eda5b-8931-4bb6-b3a0-794abbf90671.png">
+
 The next model used was the Random Forest Model. Random Forest models use algorithms to sample the data in order to create simpler decision trees. This is robust against nonlinear data. Since we tried a linear model, we decided to try this in order to see if our data was nonlinear. 
+
+<img width="500" alt="RandomForestModel" src="https://user-images.githubusercontent.com/102255823/192153489-20be535c-d19b-4e4d-b6e5-130e5ee44579.png">
+
+With random forest model you able to then calculate the importance of each feature where it gives a value of how much a feature contributed in the prediction of the target. Here, the economy contributed the most which is consistent with previous analysis made. 
+
+<img width="500" alt="FeatureImportance" src="https://user-images.githubusercontent.com/102255823/192153541-9f5d5bc4-404b-4be7-9af3-bfff470d1d82.png">
+
+Finally, we ran a SVM model and this resulted in a big disparity between the model built from 2015 versus 2016.
+
+<img width="500" alt="SVMModel" src="https://user-images.githubusercontent.com/102255823/192153943-98fc1c7c-423a-4bb0-82e6-e424a970e92b.png">
 
 ### Meet the Team
 
