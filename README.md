@@ -49,13 +49,11 @@ Tools to be used :
 •	R studio 
 •	Python
 •	Tableau 
-•	Sql
 • Google Colab
 
 R Studio will be used to create a linear regression that represents the happiness of people across the world.
 Python will be used to clean data and to create data visualizations.
 Tableau will be used to create data visualizations and to create a happiness dashboard.
-SQL will be used to look up information and to join tables.
 
 We will be using a simple statistical analysis to see how happiness is measured throughout the world.
 
