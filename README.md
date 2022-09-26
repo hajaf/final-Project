@@ -50,6 +50,7 @@ Tools to be used :
 •	Python
 •	Tableau 
 •	Sql
+• Google Colab
 
 R Studio will be used to create a linear regression that represents the happiness of people across the world.
 Python will be used to clean data and to create data visualizations.
@@ -70,21 +71,16 @@ Using RStudio, the data was grouped by region and then shows the average happine
 <img width="1095" alt="region_heatmap" src="https://user-images.githubusercontent.com/102255823/190279616-6ba3864b-a8d0-406f-ae81-ad3e7091dd5d.png">
 
 ## Plotly Scatter Plots
-Through the scatter matrix created using the 2015 data we can see that Economy, Family, and Health have the strong linear relation with Happiness Score. Then using Plotly from Pandas a scatter plot is created showing the relation between each variable against the Happiness Score. In compaing the plots from each other, it can be seen that the 10 countries have the highest y value and follow a linear pattern. But moving right, down the list of countries, the data points become more scatterd which shows there is less correlation between the country ranking and Economy, Family, or Health.
+  using Plotly from Pandas a scatter plot is created showing the relation between each variable against  each other . It can be seen that the 10 countries have the highest y value and follow a linear pattern. But moving right, down the list of countries, the data points become more scatterd which shows there is less correlation between the country ranking and Economy, Family, or Health.
 Map and visualization
  ![image](https://user-images.githubusercontent.com/103130997/191627276-267f14a5-14d8-485b-88b4-8702d683d5ac.png)
 
 The image above depicts a scatter graph of the World Happiness Report for 2015. Comparing not only the independent variable to the dependant i.e the happiness score seems to have a positive correlation with most other columns which is to be expected. Economy does not seem to have any correlation with generosity and trust meaning a countries GDP does not determine its governments level of corruption nor its generosity and vice versa. However, freedom, health and family all have positive a correlation to Economy. Regarding family again little to no correlation with generosity and trust thus family does not determine how many citizens give/donate, it does have a positive correlation with freedom and an even greater positive correlation with health. With health there is little to no correlation with generosity and trust but there is a positive correlation with freedom.
 ![image](https://user-images.githubusercontent.com/103130997/191627298-66f11f0d-c786-4cef-ac6c-7d4612a6c305.png)
 
-With this information we can loosely determine that economy, family, health and freedom all effect each other and thus all have a greater effect on the happiness score than trust and gentrosity.
+With this information we can loosely determine that economy, family, health and freedom all effect each other.
  
-The graph above depicts world happiness report for 2016 which it not much different from the 2015 report. That is economy, family, health and freedom all effect each other and thus all have a greater effect on the happiness score than trust and generosity.
-
-
-
-
-
+The graph above depicts world happiness report for 2016 which it not much different from the 2015 report. That is economy, family, health and freedom all effect each other.
 
 <p float="left">
   <img width="500" alt="Top50_Fam" src="https://user-images.githubusercontent.com/102255823/191093873-f6a8a08d-3c11-49c8-8157-005a70182ed7.png">
@@ -93,6 +89,24 @@ The graph above depicts world happiness report for 2016 which it not much differ
 <p align="center">
 <img width="500" alt="Top50_Health" src="https://user-images.githubusercontent.com/102255823/191093878-0c5290d1-1ce1-4af1-81c6-13afcdccf216.png">
 </p>
+
+## Machine Learning Model
+We created multiple machine learning models in order to see which models had a higher accuracy. We used the cleaned 2015 and 2016 datasets in order to perform our models. The dataframes were preprocessed by removing unnecessary columns such as Ranking and Country. There were certain regions that had more countries that had higher score and therefore we attempted to encode the Region column to include the feature in the model however it did not improve the model's accuracy. The features were Economy,	Family,	Health,	Freedom, Trust, and	Generosity. The target was the Score column. The dataframes were then split into X and y training and testing sets. Because we kept the two years seperate we have 2 training sets and 2 testing sets in total. 
+We began with the linear regression model which can be used to create a linear model that will predict the Scores based on the value of the feature. For 2015 the model had an accuracy of 0.75 and the 2016 linear regression model had an accuracy of 0.73. 
+
+<img width="500" alt="LinearRegressionModel" src="https://user-images.githubusercontent.com/102255823/192153472-de0eda5b-8931-4bb6-b3a0-794abbf90671.png">
+
+The next model used was the Random Forest Model. Random Forest models use algorithms to sample the data in order to create simpler decision trees. This is robust against nonlinear data. Since we tried a linear model, we decided to try this in order to see if our data was nonlinear. 
+
+<img width="500" alt="RandomForestModel" src="https://user-images.githubusercontent.com/102255823/192153489-20be535c-d19b-4e4d-b6e5-130e5ee44579.png">
+
+With random forest model you able to then calculate the importance of each feature where it gives a value of how much a feature contributed in the prediction of the target. Here, the economy contributed the most which is consistent with previous analysis made. 
+
+<img width="500" alt="FeatureImportance" src="https://user-images.githubusercontent.com/102255823/192153541-9f5d5bc4-404b-4be7-9af3-bfff470d1d82.png">
+
+Finally, we ran a SVM model and this resulted in a big disparity between the model built from 2015 versus 2016.
+
+<img width="500" alt="SVMModel" src="https://user-images.githubusercontent.com/102255823/192153943-98fc1c7c-423a-4bb0-82e6-e424a970e92b.png">
 
 ### Meet the Team
 
