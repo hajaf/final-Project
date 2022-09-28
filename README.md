@@ -29,10 +29,10 @@ Anything the team would have done differently
 ### Questions We're Looking To Answer
 main Question
 depending on 4
- - Where is the happies palace in the world to live 
- - which factors affect happiness the most 
- - what does the ranking look like on a map
- - what are the top 10 and botom 10 happiess places on earth
+ - Where is the happiest place in the world to live 
+ - Which factors affect happiness the most ?
+ - What does the ranking look like on a map?
+ - What are the top 10 and botom 10 happiest places on earth?
 ## exploration phase
 Jupyternote book was used to 
 -delete columns 
