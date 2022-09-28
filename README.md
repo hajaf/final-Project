@@ -3,6 +3,10 @@
 ![img](https://github.com/hajaf/final-Project/blob/main/images/Screenshot%202022-09-05%20093459.png)
 
 ------
+(google slides)[https://docs.google.com/presentation/d/1EZbjNEppzpPsMwYUz4aNuScQ09bWbCKOACXXZu1csyU/edit#slide=id.gcb9a0b074_1_0]
+
+(webpage)
+[https://atomickilroy.github.io/Final-Project/index.html]
 
 # ***GW Data Analytics and Visualization***
 ##  Final Project 
